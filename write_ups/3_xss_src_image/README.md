@@ -12,7 +12,7 @@ The script is activated through a link, which sends a request to a website with 
 
 By visiting `http://IP_ADDRESS/?page=media&src=nsa` the page display `nsa_prism.jpg`  
 What if we change src in url to anything ,what's happen?  
-So we send `http://192.168.1.9/?page=media&src=hello`  
+So we send `http://IP_ADDRESS/?page=media&src=hello`  
 the output was `Sorry wrong answer`, but if we search for `hello` in the content og html we find that's live in data inside `<object>`  
 What's `<object>`:
 
