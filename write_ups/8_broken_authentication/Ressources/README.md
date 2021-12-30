@@ -6,7 +6,7 @@ Broken authentication is an umbrella term for several vulnerabilities that attac
 
 ### First Step
 
-Check cookie in browser than we'll find sespec word `I_am_admin`  
+Check cookie in browser than we'll find suspicious word `I_am_admin`  
 and we'll the value of it equal `68934a3e9455fa72420237eb05902327` and if we decrypt this word we find out it's equal `false`
 
 ### Second Step
